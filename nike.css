@@ -1,0 +1,430 @@
+/* *{
+    box-sizing: border-box;
+    
+} */
+.main-header{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+}
+.header-top1{
+    /* border: 1px solid  black; */
+    height: 35%;
+    background-color: whitesmoke;
+    display: flex;
+}
+.header-top2{
+    /* border: 1px solid black; */
+    height: 65%;
+    display: flex;
+}
+.logo{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.register{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+.logo >div{
+    /* border: 1px solid black; */
+    width: 50px;
+    padding-left: 50px;
+}
+#jordan{
+    height: 25px;
+    width: 25px;
+}
+.register > div{
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.header-joinus{
+    flex-basis: 23%;
+}
+.header-help{
+    flex-basis: 17%;
+}
+.header-sign{
+    flex-basis: 20%;
+}
+.header-find{
+    flex-basis: 32%;
+}
+.logo2{
+    /* border: 1px solid black; */
+    width: 33.33%;
+    height: 100%;
+}
+.category{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: space-around;
+}
+.search-bar{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+.logo2 > div{
+    height: 100%;
+    width: 100px;
+    padding-left: 50px;
+}
+#nike{
+    height: 60px;
+    width: 55px;
+}
+img{
+    height: 25px;
+    width: 30px;
+}
+.search-bar > div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 150px;
+    display: flex;
+}
+.search{
+    align-items: center;
+    flex-basis: 250px;
+    display: inline;
+}
+.wishlist{
+    align-items: center;
+    flex-basis: 50px;
+}
+.cart{
+    align-items: center;
+    flex-basis: 50px;
+}
+#wishlist{
+    height: 30px;
+}
+#bag{
+    height: 40px;
+    width: 40px;
+}
+#input{
+    border-radius: 20px;
+}
+.carousel{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+}
+.carousel-inner,.carousel-item,.carousel-caption{
+    height: 100%;
+    width: 100%;
+}
+.carousel-item{   
+    text-align: center; 
+    line-height: 5px;
+    transition-duration: 0.6s;
+}
+h6,p{
+    color: rgb(75, 69, 69);
+}
+.carousel-item>a{
+    color: rgb(68, 61, 61);
+}
+
+.image1{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/6c577428-a968-4e31-9b45-bb9d739acb0f/nike-just-do-it.png");
+    height: 800px;
+    width: 90%;
+    margin-left: 80px;
+    background-size: 100%;
+    padding-top: 500px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+   
+    /* border: 1px solid black; */
+}
+
+.para1{
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 300px;
+    /* padding-top: 100px; */
+    /* padding: 100px; */
+    /* padding-bottom: 100px; */
+}
+.para1>p{
+    color: white;
+    /* line-height: 3px; */
+
+}
+.para1>h1{
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+}
+.para1>button{
+    height: 40px;
+    width: 100px;
+    border: 0;
+    background-color: white;
+    border-radius: 100px;
+}
+button:hover{
+    color: rgb(42, 30, 30);
+}
+.image2{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 80px;
+    /* padding-left: 80px; */
+    text-align: center;
+    height: 1200px;
+    width: 90%;
+}
+#image2{
+    height: 75%;
+    width: 100%;
+}
+.image2>p{
+    font-size: 20px;
+}
+.image2>h1{
+    font-size: 50px;
+    font: bold;
+}
+.image2>button{
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.row{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+  }
+  .row::-webkit-scrollbar,.men-row::-webkit-scrollbar,.women-row::-webkit-scrollbar{
+    display: none;
+  }
+  .card {
+    /*float: left;*/
+    max-width: 30%;
+    height: 530px;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  /* .card > img {
+    margin-bottom: .75rem;
+    width: 100%;
+  } */
+  
+  .card-text {
+    font-size: 85%;
+  }
+  .row>.card>a>img{
+    height: 100%;
+    width: 100%;
+  }
+  .row>.card>a{
+    /* text-align: left; */
+    color: black;
+    text-decoration: none;
+  }
+  #price{
+    padding-left: 150px;
+    
+  }
+  .popular{
+    margin-left: 100px;
+  }
+
+
+  .feature-container{
+    /* border: 1px solid black; */
+    height: 700px;
+    width: 100%;
+  }
+  .features{
+    /* border: 1px solid black; */
+    height: 5%;
+    width: 100%;
+  }
+  .features>div{
+    padding-left: 100px;
+
+  }
+  .feature-images{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 95%;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .feature-images>div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 45%;
+  }
+  .img-container>img{
+    position: absolute;
+    height: 89%;
+    width: 45%;
+    /* z-index: 1; */
+  }
+  .para{
+    /* border: 5px solid red; */
+    position: absolute;
+    height: 50px;
+    width: auto;
+    color: white;
+    margin-top: 500px;
+    margin-left: 20px;
+    /* z-index:3 ; */
+  }
+  .button-container{
+    /* border: 3px solid white; */
+    position: absolute;
+    height: 60px;
+    width: auto;
+    margin-top: 500px;
+    margin-left: 50px;
+  }
+  .button-container>button{
+    height: 50px;
+    width: 80px;
+    border-radius: 100px;
+  }
+
+  .men-styles{
+    /* border: 2px solid black; */
+    height: 450px;
+    width: auto;
+    
+  }
+  .men{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: auto;
+    text-align: center;
+  }
+
+  .men-table{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+  }
+  .men-row{
+    /* border: 1px solid blue; */
+    width: auto;
+    height: 410px;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* overflow-x: auto; */
+    overflow-y: hidden;
+    
+  }
+  
+  .men-items{
+    /* border: 2px solid blue; */
+    height: 100%;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .men-img-container>img{
+    width: 100%;
+    height:100% ;
+  }
+  .men-items>a{
+    text-decoration: none;
+  }
+
+
+  .women-styles{
+    /* border: 2px solid black; */
+    height: 450px;
+    width: auto;
+    
+  }
+  .women{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: auto;
+    text-align: center;
+  }
+
+  .women-table{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+  }
+  .women-row{
+    /* border: 1px solid blue; */
+    width: auto;
+    height: 410px;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* overflow-x: auto; */
+    overflow-y: hidden;
+    
+  }
+  .women-items{
+    /* border: 2px solid blue; */
+    height: 100%;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .women-img-container>img{
+    width: 100%;
+    height:100% ;
+  }
+  .women-items>a{
+    text-decoration: none;
+  }
+  
+
+  
+  
+
+
+
+
+
+
+
+ 
